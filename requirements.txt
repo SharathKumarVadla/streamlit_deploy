@@ -1,4 +1,4 @@
 scipy
 IPython
 librosa
-keras
+tensorflow
