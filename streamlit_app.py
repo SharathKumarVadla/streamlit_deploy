@@ -13,7 +13,7 @@ import numpy as np
 with open('labels.pkl', 'rb') as f:
         labels = pickle.load(f)
 
-best_model = h5py('custom_model.h5')
+best_model = h5py.File('custom_model.h5')
 
 def recognize_speech(x):
     samples, _ = librosa.load(x, sr=22050)
