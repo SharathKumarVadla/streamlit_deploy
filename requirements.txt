@@ -1,4 +1,4 @@
 scipy
 IPython
 librosa
-tensorflow
+tensorflow==2.15.0
