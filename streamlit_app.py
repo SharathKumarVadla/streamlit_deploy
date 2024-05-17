@@ -4,7 +4,8 @@ from scipy.io import wavfile
 from IPython.display import Audio
 import librosa
 from keras.preprocessing.sequence import pad_sequences
-from keras.models import load_model
+#from keras.models import load_model
+import h5py
 import pickle
 import numpy as np
 
@@ -12,7 +13,7 @@ import numpy as np
 with open('labels.pkl', 'rb') as f:
         labels = pickle.load(f)
 
-best_model = load_model('custom_model.h5')
+best_model = h5py('custom_model.h5')
 
 def recognize_speech(x):
     samples, _ = librosa.load(x, sr=22050)
