@@ -1,4 +1,4 @@
-scipy
-liborsa
-IPython
-tensorflow
+scipy==1.11.4
+liborsa==0.10.2
+IPython==7.34.0
+keras==2.15.0
