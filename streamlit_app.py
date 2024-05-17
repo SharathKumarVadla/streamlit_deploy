@@ -1,4 +1,3 @@
-!pip install requirements.txt
 
 import streamlit as st
 from scipy.io import wavfile
