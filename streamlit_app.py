@@ -1,3 +1,5 @@
+!pip install requirements.txt
+
 import streamlit as st
 from scipy.io import wavfile
 from IPython.display import Audio
