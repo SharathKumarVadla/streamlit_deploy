@@ -1,0 +1,4 @@
+scipy
+liborsa
+IPython
+tensorflow
